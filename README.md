@@ -13,6 +13,8 @@ A static gaming website for Northern Flights Disc Golf Inc., Canada. Intended do
 - `docs/404.html`: custom error page.
 - `docs/games/caboom/`: complete, unchanged HTML5 release export, served directly at `/games/caboom/index.html`.
 - `data/caboom-web-build.json`: release archive checksum and byte/hash inventory for every exported game file.
+- `data/website-game-migrations.json`: byte/hash inventories for the Chains demo and Cribbage exports migrated from the nonprofit site.
+- `WEBSITE-REVIEW.md`: migration decisions, legacy-save compatibility, DiscMon's retained Ubuntu-backed version, and suggested nonprofit-site improvements.
 - `VERIFICATION.md`: inspection findings and remaining release checks.
 
 Requires Node.js 18+ (no npm dependencies). From this directory:

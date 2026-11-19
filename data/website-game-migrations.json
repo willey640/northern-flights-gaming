@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "chains",
+    "url": "/games/chains/index.html",
+    "source": "northernflightsdiscgolf/games/ChainofChaos",
+    "files": [
+      {
+        "name": "index.apple-touch-icon.png",
+        "bytes": 11929,
+        "sha256": "3b26f608cccdebe8006a7309a1da219cafa5e29304055bed7b8eb8a3b6825938"
+      },
+      {
+        "name": "index.audio.position.worklet.js",
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      {
+        "name": "index.audio.worklet.js",
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      {
+        "name": "index.html",
+        "bytes": 5665,
+        "sha256": "53d3aefdfce1f92f88875f87c61a2bff7a4ccac1d99f62b28ea855a08eed0a65"
+      },
+      {
+        "name": "index.icon.png",
+        "bytes": 5769,
+        "sha256": "0f7988acc72fcb26c666c5cf10f3aebbfc0ac73ad2322c73ea832ea5f7f3cf8f"
+      },
+      {
+        "name": "index.js",
+        "bytes": 305185,
+        "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
+      },
+      {
+        "name": "index.pck",
+        "bytes": 63640996,
+        "sha256": "747e3deb96daeeb2fd5cd20b589e59b6c59a4fede2be5ff9886a784d8397ba00"
+      },
+      {
+        "name": "index.png",
+        "bytes": 1908455,
+        "sha256": "d8b3b03c4f2b65589369bf919c6e08cb3fdcca931da1bec918b6612cbe9eacba"
+      },
+      {
+        "name": "index.wasm",
+        "bytes": 38034280,
+        "sha256": "6498359ba889796a0d95a2f71113ac184badc0f2d84cf28f4103c7e399d2d547"
+      }
+    ]
+  },
+  {
+    "slug": "cribbage",
+    "url": "/games/cribbage/index.html",
+    "source": "northernflightsdiscgolf/games/cribbage_of_chaos",
+    "files": [
+      {
+        "name": "index.apple-touch-icon.png",
+        "bytes": 63183,
+        "sha256": "6be73e4c1e77484bbc9ff74ac4251385affc7aac29a8bed04e178cb714c7e0aa"
+      },
+      {
+        "name": "index.audio.position.worklet.js",
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      {
+        "name": "index.audio.worklet.js",
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      {
+        "name": "index.html",
+        "bytes": 5449,
+        "sha256": "df8987e8d9a11ba989af9bafbafbc9dbdee15ca239d9a630724034efd07346a9"
+      },
+      {
+        "name": "index.icon.png",
+        "bytes": 2260839,
+        "sha256": "e0c2f3bf7d0cbd4edb2e7a005f3b698f63ed64716301b16e9349e6176b2260da"
+      },
+      {
+        "name": "index.js",
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      {
+        "name": "index.pck",
+        "bytes": 77749792,
+        "sha256": "e2c5f196243e30e095248d412ba8f2c5baa64cd40dbc11e350d4ddb8f22ae02b"
+      },
+      {
+        "name": "index.png",
+        "bytes": 1908455,
+        "sha256": "d8b3b03c4f2b65589369bf919c6e08cb3fdcca931da1bec918b6612cbe9eacba"
+      },
+      {
+        "name": "index.wasm",
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+      }
+    ]
+  }
+]

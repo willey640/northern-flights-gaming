@@ -43,5 +43,9 @@ These are recommendations for a follow-up update, not a blanket redesign perform
 - Gaming site: 14 standard HTML pages, three game export entries, and 27 byte-exact game files passed validation.
 - Both migrated exports reached their title/menu screens in the local browser.
 - Nonprofit homepage promotion and Games-page destination links checked in a local overlay, leaving the original checkout untouched during review.
-- No horizontal overflow reported for the modified nonprofit pages during responsive checks; the existing navigation behavior itself remains a separate improvement recommendation.
+- No horizontal overflow reported for the modified nonprofit pages at the desktop viewport. The browser viewport override did not apply to these tabs, so a phone-layout browser check is not claimed. The new promotion includes a single-column phone breakpoint; physical mobile-device testing remains useful.
 - Preserve DNS, nfdg.ca redirect, existing game binaries, server configuration, and nonprofit branding.
+
+## Gaming deployment verification
+
+Gaming commit `161bc26` deployed successfully. Both new HTML entry points, JavaScript, game-data packs, and WebAssembly files returned HTTP 200 over HTTPS, with `application/octet-stream` for packs and `application/wasm` for WebAssembly. The Chains and Cribbage detail pages contain their new same-site Play links. Existing export files on the nonprofit site remain untouched.

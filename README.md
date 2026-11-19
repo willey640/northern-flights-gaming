@@ -9,6 +9,7 @@ A static gaming website for Northern Flights Disc Golf Inc., Canada. Intended do
 - `assets/`: CSS, small accessible mobile-menu script, optimized copies of existing artwork.
 - `docs/`: generated GitHub Pages output, committed for branch deployment.
 - `docs/caboom/privacy/index.html`: ordinary static privacy webpage; no login or backend.
+- `content/caboom-terms.html`: editable Caboom Terms of Service; generated at `/caboom/terms/`. Review notes and legal sources are recorded in `TERMS-REVIEW.md`.
 - `docs/404.html`: custom error page.
 - `VERIFICATION.md`: inspection findings and remaining release checks.
 

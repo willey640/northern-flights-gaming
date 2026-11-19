@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-const root=path.resolve(import.meta.dirname || path.dirname(new URL(import.meta.url).pathname.replace(/^\/(\w:)/,'$1')),'..');
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const games=JSON.parse(fs.readFileSync(path.join(root,'data/games.json'),'utf8'));
 const origin='https://gaming.nfdg.ca';
 const official='https://www.northernflightsdiscgolf.ca';

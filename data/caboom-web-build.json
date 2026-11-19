@@ -1,0 +1,54 @@
+{
+  "sourceArchive": "CaboomOfChaos-html5-release.zip",
+  "archiveSha256": "730b0465a7e45b77fa7b1dbeb62337b574ceec1ae739d2e59c9e60845b4918ee",
+  "url": "/games/caboom/index.html",
+  "threads": false,
+  "pwa": false,
+  "files": [
+    {
+      "name": "index.apple-touch-icon.png",
+      "bytes": 63488,
+      "sha256": "a3358c4f4b23f08e996ad99e6cfd5c4816862a6d992c24099587c98a3ce034d6"
+    },
+    {
+      "name": "index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "name": "index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "name": "index.html",
+      "bytes": 5446,
+      "sha256": "72302795d3fe0e847e4d738066f87de86a112eb3c7c67bcee8970c5e6bf7889b"
+    },
+    {
+      "name": "index.icon.png",
+      "bytes": 2116541,
+      "sha256": "51b8782440cc6e4f2bf12e50b3446a88a617d613a1d1e7599f0638a4201e7edf"
+    },
+    {
+      "name": "index.js",
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    {
+      "name": "index.pck",
+      "bytes": 71817564,
+      "sha256": "d0141b0d9a7f882ce5465f7321a39dc3d9c78eeb8948951c2034737a2416fa20"
+    },
+    {
+      "name": "index.png",
+      "bytes": 1715511,
+      "sha256": "72298ca197717cbff9ad941097e17f922ea55521e1539d21a802cd30c1dfa090"
+    },
+    {
+      "name": "index.wasm",
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    }
+  ]
+}

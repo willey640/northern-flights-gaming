@@ -1,0 +1,2 @@
+# Godot web exports must retain the exact bytes from the supplied release ZIP.
+docs/games/caboom/** -text -whitespace

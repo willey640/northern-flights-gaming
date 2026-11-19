@@ -11,6 +11,8 @@ A static gaming website for Northern Flights Disc Golf Inc., Canada. Intended do
 - `docs/caboom/privacy/index.html`: ordinary static privacy webpage; no login or backend.
 - `content/caboom-terms.html`: editable Caboom Terms of Service; generated at `/caboom/terms/`. Review notes and legal sources are recorded in `TERMS-REVIEW.md`.
 - `docs/404.html`: custom error page.
+- `docs/games/caboom/`: complete, unchanged HTML5 release export, served directly at `/games/caboom/index.html`.
+- `data/caboom-web-build.json`: release archive checksum and byte/hash inventory for every exported game file.
 - `VERIFICATION.md`: inspection findings and remaining release checks.
 
 Requires Node.js 18+ (no npm dependencies). From this directory:
@@ -32,6 +34,14 @@ Add optimized artwork to `assets/images/`, then update the data file. Original s
 Privacy content is written in `scripts/build.mjs`; change it there, rebuild, review `docs/caboom/privacy/index.html`, and recheck the actual release configuration before publishing. Other games have different practices and must get their own verified policies. Do not change only generated HTML: rebuilding would replace it.
 
 ## Deployment
+
+### Updating the playable Caboom build
+
+The supplied `CaboomOfChaos-html5-release.zip` was extracted in full into `docs/games/caboom/`. All nine files keep their original names and bytes. The site build preserves this directory; do not replace its `index.html` with a marketing-page template. No iframe or backend is required: the Caboom page links directly to the full-window game. Browser compatibility requires WebAssembly and WebGL 2; this supplied build disables threads and PWA service workers.
+
+For a future release, inspect the new archive, replace the complete export together, and update `data/caboom-web-build.json` with its checksums and lengths. Do not upload signing keys or the Godot source tree. Keep each file below GitHub's 100 MiB file limit. `.gitattributes` prevents newline conversion in exported files. Run `npm run build` and `npm run check`, preview startup and a match, then commit the export and catalogue changes together. The local preview serves `.wasm` as `application/wasm` and `.pck` as binary; verify those MIME types on the published host too.
+
+The browser build is a large initial download. Saves stay in that browser/site's storage and can be lost when site data is cleared. A browser Play label does not announce Android/iOS app-store availability. See [Godot web export documentation](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html).
 
 Repository: https://github.com/willey640/northern-flights-gaming
 
